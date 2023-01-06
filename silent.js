@@ -7,7 +7,7 @@ let tuneCount = 0;
 window.onload = function(){
     //laeme Midi plugina
     MIDI.loadPlugin({
-        soundfontUrl: 'https://tigu.hk.tlu.ee/~andrus.rinde/MIDI.js-master/soundfont/',
+        soundfontUrl: 'https://github.com/DaireLuus/joululaul/tree/main/soundfont/',
         instruments: ["violin", "brass_section", "glockenspiel", "church_organ"], 
         onprogress: function(state, progress){
             console.log(state, progress);
